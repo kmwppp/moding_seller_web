@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>본인인증 결과 확인 중</title>
+  <script>
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const flow = (params.get('flow') || '').replaceAll('-', '_');
+      const key = params.get('key') || '';
+      const name = params.get('name') || '';
+      const phone = params.get('phone') || '';
+      const hasPendingIdentityVerifyMode =
+        window.sessionStorage.getItem('pendingIdentityVerifyMode') === '1';
+      const isIdentityVerifyFlow =
+        flow === 'identity_verify' || flow === 'identity' || hasPendingIdentityVerifyMode;
+
+      let hashPath = '/login';
+      if (flow === 'find-id' && key) {
+        hashPath = '/find-id';
+      } else if (flow === 'reset_password' && key) {
+        hashPath = '/reset-password';
+      } else if (isIdentityVerifyFlow && key) {
+        hashPath = '/reset-password';
+      }
+
+      const nextParams = new URLSearchParams();
+      if (key) nextParams.set('key', key);
+      if (isIdentityVerifyFlow) {
+        nextParams.set('mode', 'identityVerify');
+        window.sessionStorage.removeItem('pendingIdentityVerifyMode');
+      }
+      if (name) nextParams.set('name', name);
+      if (phone) nextParams.set('phone', phone);
+
+      const queryString = nextParams.toString();
+      const target =
+        `${window.location.origin}/#${hashPath}` +
+        (queryString ? `?${queryString}` : '');
+
+      window.location.replace(target);
+    })();
+  </script>
+</head>
+<body style="margin:0;display:flex;align-items:center;justify-content:center;min-height:100vh;background:#f6faf4;font-family:Pretendard,Arial,sans-serif;color:#222;">
+  <div style="text-align:center;padding:24px;">
+    <div style="margin-bottom:12px;">본인인증 결과를 확인하고 있습니다.</div>
+    <div style="font-size:14px;color:#666;">잠시만 기다려주세요.</div>
+  </div>
+</body>
+</html>
