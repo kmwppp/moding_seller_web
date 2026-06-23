@@ -2,6 +2,20 @@
 
 모딩 판매자 페이지
 
+## Build
+
+테스트 서버 빌드:
+
+```bash
+./scripts/build_test.sh
+```
+
+운영 서버 빌드:
+
+```bash
+./scripts/build_prod.sh
+```
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
