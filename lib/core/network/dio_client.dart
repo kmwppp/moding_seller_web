@@ -1,6 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
+import '../config/app_config.dart';
 import '../services/token_storage.dart';
 import 'auth_interceptor.dart';
 
@@ -8,12 +9,11 @@ part 'dio_client.g.dart';
 
 @riverpod
 Dio dio(Ref ref) {
-  final localHost = "http://moding.iiiii.info:8080/";
   final tokenStorage = ref.read(tokenStorageProvider);
 
   final dio = Dio(
     BaseOptions(
-      baseUrl: localHost,
+      baseUrl: AppConfig.apiBaseUrl,
       connectTimeout: const Duration(seconds: 5),
       receiveTimeout: const Duration(seconds: 3),
     ),
