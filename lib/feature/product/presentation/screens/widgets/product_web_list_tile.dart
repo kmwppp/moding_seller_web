@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/utils/string_util.dart';
-import 'package:moding_president_web/feature/product/presentation/providers/product_management/product_management_viewmodel.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/widgets/product_status_confirm.dart';
+import 'package:moding_seller_web/core/utils/string_util.dart';
+import 'package:moding_seller_web/feature/product/presentation/providers/product_management/product_management_viewmodel.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/widgets/product_status_confirm.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/presentation/widgets/modal/web_bottom_sheet.dart';

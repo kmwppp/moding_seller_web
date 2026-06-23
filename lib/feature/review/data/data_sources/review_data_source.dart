@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/constants/app_http_urls.dart';
-import 'package:moding_president_web/core/network/dio_client.dart';
+import 'package:moding_seller_web/core/constants/app_http_urls.dart';
+import 'package:moding_seller_web/core/network/dio_client.dart';
 
 final reviewDataSourceProvider = Provider<ReviewDataSource>((ref) {
   return ReviewDataSource(ref.watch(dioProvider));

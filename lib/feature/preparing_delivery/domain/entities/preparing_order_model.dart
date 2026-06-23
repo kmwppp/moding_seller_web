@@ -11,7 +11,7 @@ abstract class PreparingOrderModel with _$PreparingOrderModel {
   const factory PreparingOrderModel({
     required int id,
     required String orderCode,
-    required int buyerProfileId,
+    required int buyerBusinessProfileId,
     required String buyerBusinessName,
     required int sellerProfileId,
     required String sellerBusinessName,

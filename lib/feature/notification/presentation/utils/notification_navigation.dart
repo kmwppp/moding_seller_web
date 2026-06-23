@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/feature/main/presentation/main_page.dart';
-import 'package:moding_president_web/feature/main/presentation/providers/main_viewmodel.dart';
-import 'package:moding_president_web/feature/notification/domain/entities/notification_item.dart';
-import 'package:moding_president_web/feature/notification/domain/enums/notification_target_page.dart';
-import 'package:moding_president_web/feature/order/presentation/providers/order_management_viewmodel.dart';
-import 'package:moding_president_web/feature/product/presentation/providers/product_management/product_management_viewmodel.dart';
-import 'package:moding_president_web/feature/settlement/presentation/providers/settlement_viewmodel.dart';
+import 'package:moding_seller_web/feature/main/presentation/main_page.dart';
+import 'package:moding_seller_web/feature/main/presentation/providers/main_viewmodel.dart';
+import 'package:moding_seller_web/feature/notification/domain/entities/notification_item.dart';
+import 'package:moding_seller_web/feature/notification/domain/enums/notification_target_page.dart';
+import 'package:moding_seller_web/feature/order/presentation/providers/order_management_viewmodel.dart';
+import 'package:moding_seller_web/feature/product/presentation/providers/product_management/product_management_viewmodel.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/providers/settlement_viewmodel.dart';
 
 Future<void> navigateByNotification(
   BuildContext context,

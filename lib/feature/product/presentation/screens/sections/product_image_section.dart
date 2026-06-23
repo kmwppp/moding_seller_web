@@ -3,7 +3,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/widgets/product_label.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/widgets/product_label.dart';
 
 import '../../../../../../core/constants/app_colors.dart';
 import '../../../../../../core/theme/app_box_styles.dart';

@@ -1,11 +1,11 @@
 {
-    "name": "moding_president_web",
-    "short_name": "moding_president_web",
+    "name": "모딩 판매자 페이지",
+    "short_name": "모딩 판매자",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "moding president web",
+    "description": "모딩 판매자 페이지",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

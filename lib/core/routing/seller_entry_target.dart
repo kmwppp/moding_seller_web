@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/main/presentation/main_page.dart';
+import 'package:moding_seller_web/feature/main/presentation/main_page.dart';
 
 class SellerEntryTarget {
   const SellerEntryTarget({this.targetPath, this.mainMenu});

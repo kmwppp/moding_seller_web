@@ -1,10 +1,10 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/auth/data/data_sources/auth_data_source.dart';
-import 'package:moding_president_web/feature/auth/domain/entities/auth_session.dart';
-import 'package:moding_president_web/feature/auth/domain/entities/find_id_result.dart';
-import 'package:moding_president_web/feature/auth/domain/entities/identity_verification_start_result.dart';
-import 'package:moding_president_web/feature/auth/domain/entities/reset_password_result.dart';
-import 'package:moding_president_web/feature/auth/domain/repositories/auth_repository.dart';
+import 'package:moding_seller_web/feature/auth/data/data_sources/auth_data_source.dart';
+import 'package:moding_seller_web/feature/auth/domain/entities/auth_session.dart';
+import 'package:moding_seller_web/feature/auth/domain/entities/find_id_result.dart';
+import 'package:moding_seller_web/feature/auth/domain/entities/identity_verification_start_result.dart';
+import 'package:moding_seller_web/feature/auth/domain/entities/reset_password_result.dart';
+import 'package:moding_seller_web/feature/auth/domain/repositories/auth_repository.dart';
 
 final authRepositoryProvider = Provider<AuthRepository>((ref) {
   return AuthRepositoryImpl(ref.watch(authDataSourceProvider));

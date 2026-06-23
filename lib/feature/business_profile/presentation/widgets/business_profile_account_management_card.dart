@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/theme/app_box_styles.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/refund_account_info.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/utils/business_profile_formatters.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/widgets/business_profile_info_row.dart';
+import 'package:moding_seller_web/core/theme/app_box_styles.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/refund_account_info.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/utils/business_profile_formatters.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/widgets/business_profile_info_row.dart';
 
 import '../../../../core/presentation/dialogs/app_dialogs.dart';
 import '../../../../core/presentation/widgets/text_arrow_widget.dart';

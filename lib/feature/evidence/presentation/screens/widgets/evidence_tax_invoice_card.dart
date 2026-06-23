@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
 
 import '../../../../dash_board/presentation/screens/widgets/custom_button.dart';
 import '../../models/evidence_models.dart';

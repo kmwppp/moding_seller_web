@@ -5,9 +5,9 @@ import 'dart:html' as html;
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/main/presentation/main_page.dart';
-import 'package:moding_president_web/feature/main/presentation/providers/main_viewmodel.dart';
-import 'package:moding_president_web/router/router.dart';
+import 'package:moding_seller_web/feature/main/presentation/main_page.dart';
+import 'package:moding_seller_web/feature/main/presentation/providers/main_viewmodel.dart';
+import 'package:moding_seller_web/router/router.dart';
 
 import 'core/constants/app_colors.dart';
 

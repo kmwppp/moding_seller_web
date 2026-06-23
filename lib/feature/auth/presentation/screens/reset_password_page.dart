@@ -3,16 +3,16 @@ import 'dart:html' as html;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/core/presentation/dialogs/app_dialogs.dart';
-import 'package:moding_president_web/core/services/token_storage.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/auth/data/repositories/auth_repository_impl.dart';
-import 'package:moding_president_web/feature/auth/presentation/providers/reset_password_viewmodel.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_center_card.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_info_notice.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_labeled_field.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_page_header.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_page_shell.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/app_dialogs.dart';
+import 'package:moding_seller_web/core/services/token_storage.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/auth/data/repositories/auth_repository_impl.dart';
+import 'package:moding_seller_web/feature/auth/presentation/providers/reset_password_viewmodel.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_center_card.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_info_notice.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_labeled_field.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_page_header.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_page_shell.dart';
 
 import '../../../../core/constants/app_colors.dart';
 

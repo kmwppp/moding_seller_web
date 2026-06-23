@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/login_auxiliary_actions.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/login_text_field.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/login_auxiliary_actions.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/login_text_field.dart';
 
 class LoginFormCard extends StatelessWidget {
   const LoginFormCard({

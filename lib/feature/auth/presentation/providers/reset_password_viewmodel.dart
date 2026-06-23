@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/services/token_storage.dart';
-import 'package:moding_president_web/feature/auth/data/repositories/auth_repository_impl.dart';
-import 'package:moding_president_web/feature/auth/domain/entities/reset_password_result.dart';
-import 'package:moding_president_web/feature/auth/presentation/providers/reset_password_state.dart';
+import 'package:moding_seller_web/core/services/token_storage.dart';
+import 'package:moding_seller_web/feature/auth/data/repositories/auth_repository_impl.dart';
+import 'package:moding_seller_web/feature/auth/domain/entities/reset_password_result.dart';
+import 'package:moding_seller_web/feature/auth/presentation/providers/reset_password_state.dart';
 
 final resetPasswordViewModelProvider =
     NotifierProvider<ResetPasswordViewModel, ResetPasswordState>(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
 
 class AuthCenterCard extends StatelessWidget {
   const AuthCenterCard({super.key, required this.child, this.maxWidth = 520});

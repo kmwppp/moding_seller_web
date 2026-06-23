@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:moding_president_web/feature/dash_board/domain/entities/dash_board_model.dart';
+import 'package:moding_seller_web/feature/dash_board/domain/entities/dash_board_model.dart';
 
 import '../../../order/domain/entities/order_model.dart';
 

@@ -1,24 +1,24 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/constants/app_responsive_layout.dart';
-import 'package:moding_president_web/core/presentation/dialogs/app_dialogs.dart';
-import 'package:moding_president_web/core/presentation/widgets/loading_indicator.dart';
-import 'package:moding_president_web/core/presentation/widgets/modal/web_bottom_sheet.dart';
-import 'package:moding_president_web/core/services/token_storage.dart';
-import 'package:moding_president_web/core/theme/app_input_decoration.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/business_profile/data/repositories/business_profile_repository.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/bank_code_option.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_document.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_edit_file.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_info.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_update_request.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/utils/business_profile_formatters.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/utils/seller_profile_edit_constants.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/widgets/business_profile_file_field.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/widgets/business_profile_option_selector_sheet.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/constants/app_responsive_layout.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/app_dialogs.dart';
+import 'package:moding_seller_web/core/presentation/widgets/loading_indicator.dart';
+import 'package:moding_seller_web/core/presentation/widgets/modal/web_bottom_sheet.dart';
+import 'package:moding_seller_web/core/services/token_storage.dart';
+import 'package:moding_seller_web/core/theme/app_input_decoration.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/business_profile/data/repositories/business_profile_repository.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/bank_code_option.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_document.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_edit_file.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_info.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_update_request.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/utils/business_profile_formatters.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/utils/seller_profile_edit_constants.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/widgets/business_profile_file_field.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/widgets/business_profile_option_selector_sheet.dart';
 
 class SellerProfileEditPage extends ConsumerStatefulWidget {
   const SellerProfileEditPage({super.key, this.initialSellerProfile});
@@ -71,7 +71,8 @@ class _SellerProfileEditPageState extends ConsumerState<SellerProfileEditPage> {
     try {
       final repository = ref.read(businessProfileRepositoryProvider);
       final bankOptions = await repository.getBankCodeOptions();
-      final initialDocuments = widget.initialSellerProfile?.documents ?? const [];
+      final initialDocuments =
+          widget.initialSellerProfile?.documents ?? const [];
       final bankbookFile = await _loadSingleDocumentFile(
         repository,
         _documentsByType(initialDocuments, 'BANKBOOK'),
@@ -473,9 +474,10 @@ class _SellerProfileEditPageState extends ConsumerState<SellerProfileEditPage> {
                             ),
                             onRemoveAt: (index) {
                               setState(() {
-                                final updated = List<SellerProfileEditFile>.from(
-                                  _businessPermitFiles,
-                                )..removeAt(index);
+                                final updated =
+                                    List<SellerProfileEditFile>.from(
+                                      _businessPermitFiles,
+                                    )..removeAt(index);
                                 _businessPermitFiles = updated;
                               });
                             },
@@ -493,9 +495,10 @@ class _SellerProfileEditPageState extends ConsumerState<SellerProfileEditPage> {
                             ),
                             onRemoveAt: (index) {
                               setState(() {
-                                final updated = List<SellerProfileEditFile>.from(
-                                  _mailOrderSalesReportFiles,
-                                )..removeAt(index);
+                                final updated =
+                                    List<SellerProfileEditFile>.from(
+                                      _mailOrderSalesReportFiles,
+                                    )..removeAt(index);
                                 _mailOrderSalesReportFiles = updated;
                               });
                             },
@@ -515,9 +518,10 @@ class _SellerProfileEditPageState extends ConsumerState<SellerProfileEditPage> {
                             ),
                             onRemoveAt: (index) {
                               setState(() {
-                                final updated = List<SellerProfileEditFile>.from(
-                                  _haccpCertificateFiles,
-                                )..removeAt(index);
+                                final updated =
+                                    List<SellerProfileEditFile>.from(
+                                      _haccpCertificateFiles,
+                                    )..removeAt(index);
                                 _haccpCertificateFiles = updated;
                               });
                             },
@@ -526,20 +530,19 @@ class _SellerProfileEditPageState extends ConsumerState<SellerProfileEditPage> {
                           BusinessProfileFileField(
                             label: '기타증빙서류',
                             subLabel:
-                                '수입업, 주류면허, 중매인, 도소매허가 등 판매 자격 증빙에 필요한 서류를 첨부해 주세요',
+                                '수입업, 주류면허, 중매인, 도소매허가 등 판매 자격 증빙에 필요한 서류를 첨부해 주세요.',
                             files: _otherFiles,
                             allowMultiple: true,
-                            onTap: () => _pickMultipleFiles(
-                              _otherFiles,
-                              (files) {
-                                _otherFiles = files;
-                              },
-                            ),
+                            onTap: () =>
+                                _pickMultipleFiles(_otherFiles, (files) {
+                                  _otherFiles = files;
+                                }),
                             onRemoveAt: (index) {
                               setState(() {
-                                final updated = List<SellerProfileEditFile>.from(
-                                  _otherFiles,
-                                )..removeAt(index);
+                                final updated =
+                                    List<SellerProfileEditFile>.from(
+                                      _otherFiles,
+                                    )..removeAt(index);
                                 _otherFiles = updated;
                               });
                             },

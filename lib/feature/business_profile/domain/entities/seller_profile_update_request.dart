@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_edit_file.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_edit_file.dart';
 
 class SellerProfileUpdateRequest {
   const SellerProfileUpdateRequest({

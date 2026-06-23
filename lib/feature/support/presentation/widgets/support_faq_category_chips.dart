@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/support/domain/enums/support_faq_category.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/support/domain/enums/support_faq_category.dart';
 
 class SupportFaqCategoryChips extends StatelessWidget {
   const SupportFaqCategoryChips({

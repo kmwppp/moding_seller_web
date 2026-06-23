@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/constants/app_responsive_layout.dart';
-import 'package:moding_president_web/core/presentation/widgets/loading_indicator.dart';
-import 'package:moding_president_web/core/theme/app_box_styles.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/support/data/repositories/support_repository.dart';
-import 'package:moding_president_web/feature/support/domain/enums/support_center_type.dart';
-import 'package:moding_president_web/feature/support/domain/enums/support_faq_category.dart';
-import 'package:moding_president_web/feature/support/presentation/providers/support_center_state.dart';
-import 'package:moding_president_web/feature/support/presentation/widgets/support_faq_category_chips.dart';
-import 'package:moding_president_web/feature/support/presentation/widgets/support_faq_tile.dart';
-import 'package:moding_president_web/feature/support/presentation/widgets/support_notice_tile.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/constants/app_responsive_layout.dart';
+import 'package:moding_seller_web/core/presentation/widgets/loading_indicator.dart';
+import 'package:moding_seller_web/core/theme/app_box_styles.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/support/data/repositories/support_repository.dart';
+import 'package:moding_seller_web/feature/support/domain/enums/support_center_type.dart';
+import 'package:moding_seller_web/feature/support/domain/enums/support_faq_category.dart';
+import 'package:moding_seller_web/feature/support/presentation/providers/support_center_state.dart';
+import 'package:moding_seller_web/feature/support/presentation/widgets/support_faq_category_chips.dart';
+import 'package:moding_seller_web/feature/support/presentation/widgets/support_faq_tile.dart';
+import 'package:moding_seller_web/feature/support/presentation/widgets/support_notice_tile.dart';
 
 class SupportCenterPage extends ConsumerStatefulWidget {
   const SupportCenterPage({super.key, required this.type, this.onBack});

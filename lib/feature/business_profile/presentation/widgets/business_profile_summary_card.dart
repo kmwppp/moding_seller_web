@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/theme/app_box_styles.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/business_profile.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/utils/business_profile_formatters.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/theme/app_box_styles.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/business_profile.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/utils/business_profile_formatters.dart';
 
 class BusinessProfileSummaryCard extends StatelessWidget {
   const BusinessProfileSummaryCard({super.key, required this.profile});

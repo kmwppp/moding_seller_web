@@ -1,24 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/constants/app_responsive_layout.dart';
-import 'package:moding_president_web/core/services/web_bridge.dart';
-import 'package:moding_president_web/feature/claim/presentation/screens/claim_page.dart';
-import 'package:moding_president_web/feature/notification/presentation/widgets/notification_bell_button.dart';
-import 'package:moding_president_web/feature/review/presentation/screens/review_management_page.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/screens/business_profile_management_page.dart';
+import 'package:moding_seller_web/core/constants/app_responsive_layout.dart';
+import 'package:moding_seller_web/core/services/web_bridge.dart';
+import 'package:moding_seller_web/feature/claim/presentation/screens/claim_page.dart';
+import 'package:moding_seller_web/feature/notification/presentation/widgets/notification_bell_button.dart';
+import 'package:moding_seller_web/feature/review/presentation/screens/review_management_page.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/screens/business_profile_management_page.dart';
 
-import 'package:moding_president_web/feature/main/presentation/providers/main_viewmodel.dart';
-import 'package:moding_president_web/feature/main/presentation/widgets/side_navigation.dart';
-import 'package:moding_president_web/feature/order/presentation/screens/order_management_page.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/product_management_page.dart';
-import 'package:moding_president_web/feature/settlement/presentation/screens/settlement_management_page.dart';
-import 'package:moding_president_web/feature/evidence/presentation/screens/evidence_management_page.dart';
+import 'package:moding_seller_web/feature/main/presentation/providers/main_viewmodel.dart';
+import 'package:moding_seller_web/feature/main/presentation/widgets/side_navigation.dart';
+import 'package:moding_seller_web/feature/order/presentation/screens/order_management_page.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/product_management_page.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/settlement_management_page.dart';
+import 'package:moding_seller_web/feature/evidence/presentation/screens/evidence_management_page.dart';
 
 import '../../../core/constants/app_strings.dart';
 import '../../dash_board/presentation/screens/dash_board_page.dart';
 
 enum MainMenu {
-  dashboard(AppStrings.dashBoard, "assets/images/icons/dashboardIcon.png"),
+  dashboard(AppStrings.dashBoard, "assets/images/icons/homeIcon.png"),
   product(AppStrings.productManagement, "assets/images/icons/productIcon.png"),
   order(AppStrings.orderManagement, "assets/images/icons/orderIcon.png"),
   claim(AppStrings.claimsManagement, "assets/images/icons/claimIcon.png"),
@@ -30,10 +30,10 @@ enum MainMenu {
   // stats(AppStrings.statistics, "assets/images/icons/statsIcon.png"),
   // promotion(
   //   AppStrings.managePromotions,
-  //   "assets/images/icons/dashboardIcon.png",
+  //   "assets/images/icons/homeIcon.png",
   // ),
-  review(AppStrings.reviewManagement, "assets/images/icons/dashboardIcon.png"),
-  setting(AppStrings.settings, "assets/images/icons/dashboardIcon.png"),
+  review(AppStrings.reviewManagement, "assets/images/icons/homeIcon.png"),
+  setting(AppStrings.settings, "assets/images/icons/homeIcon.png"),
   moveToPurchase(AppStrings.goToThePurchasePage, "");
 
   final String label;

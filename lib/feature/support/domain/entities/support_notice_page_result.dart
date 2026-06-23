@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/support/domain/entities/support_notice_item.dart';
+import 'package:moding_seller_web/feature/support/domain/entities/support_notice_item.dart';
 
 class SupportNoticePageResult {
   const SupportNoticePageResult({

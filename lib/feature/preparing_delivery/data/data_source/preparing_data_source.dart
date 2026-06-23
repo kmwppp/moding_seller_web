@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:moding_president_web/core/constants/app_http_urls.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/entities/variable_weight_delivery_item_request.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/enums/delivery_method.dart';
+import 'package:moding_seller_web/core/constants/app_http_urls.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/entities/variable_weight_delivery_item_request.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/enums/delivery_method.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../../../core/network/dio_client.dart';

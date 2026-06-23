@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/feature/claim/data/repositories/claim_repository_impl.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/entities/tracking_validation_result.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/feature/claim/data/repositories/claim_repository_impl.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/entities/tracking_validation_result.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../../../preparing_delivery/domain/entities/carrier_model.dart';

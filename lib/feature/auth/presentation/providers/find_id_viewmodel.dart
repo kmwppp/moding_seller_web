@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/auth/data/repositories/auth_repository_impl.dart';
-import 'package:moding_president_web/feature/auth/domain/entities/find_id_result.dart';
-import 'package:moding_president_web/feature/auth/presentation/providers/find_id_state.dart';
+import 'package:moding_seller_web/feature/auth/data/repositories/auth_repository_impl.dart';
+import 'package:moding_seller_web/feature/auth/domain/entities/find_id_result.dart';
+import 'package:moding_seller_web/feature/auth/presentation/providers/find_id_state.dart';
 
 final findIdViewModelProvider = NotifierProvider<FindIdViewModel, FindIdState>(
   FindIdViewModel.new,

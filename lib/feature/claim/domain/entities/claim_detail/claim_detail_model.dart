@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/enums/delivery_method.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/enums/delivery_method.dart';
 
 import '../../enums/claim_enum.dart';
 import '../../enums/claim_resolution.dart';

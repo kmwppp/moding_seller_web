@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/presentation/widgets/modal/web_bottom_sheet.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/entities/carrier_model.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/enums/delivery_method.dart';
-import 'package:moding_president_web/feature/preparing_delivery/presentation/enums/delivery_execute_tab.dart';
-import 'package:moding_president_web/feature/preparing_delivery/presentation/enums/hanjin_delivery_options.dart';
-import 'package:moding_president_web/feature/preparing_delivery/presentation/providers/dash_delivery_viewmodel.dart';
-import 'package:moding_president_web/feature/preparing_delivery/presentation/widgets/delivery_option_selector_sheet.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/widgets/product_label.dart';
+import 'package:moding_seller_web/core/presentation/widgets/modal/web_bottom_sheet.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/entities/carrier_model.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/enums/delivery_method.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/presentation/enums/delivery_execute_tab.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/presentation/enums/hanjin_delivery_options.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/presentation/providers/dash_delivery_viewmodel.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/presentation/widgets/delivery_option_selector_sheet.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/widgets/product_label.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/theme/app_box_styles.dart';

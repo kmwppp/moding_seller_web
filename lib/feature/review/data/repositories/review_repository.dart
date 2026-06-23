@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/review/data/data_sources/review_data_source.dart';
-import 'package:moding_president_web/feature/review/domain/entities/review_page_result.dart';
+import 'package:moding_seller_web/feature/review/data/data_sources/review_data_source.dart';
+import 'package:moding_seller_web/feature/review/domain/entities/review_page_result.dart';
 
 final reviewRepositoryProvider = Provider<ReviewRepository>((ref) {
   return ReviewRepository(ref.watch(reviewDataSourceProvider));

@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:moding_president_web/feature/claim/domain/entities/claim_model.dart';
-import 'package:moding_president_web/feature/claim/domain/entities/claim_summary_model.dart';
+import 'package:moding_seller_web/feature/claim/domain/entities/claim_model.dart';
+import 'package:moding_seller_web/feature/claim/domain/entities/claim_summary_model.dart';
 
 import '../../../domain/enums/claim_enum.dart';
 

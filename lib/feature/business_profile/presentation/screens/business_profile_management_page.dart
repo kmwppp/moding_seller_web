@@ -1,22 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/constants/app_responsive_layout.dart';
-import 'package:moding_president_web/core/presentation/dialogs/app_dialogs.dart';
-import 'package:moding_president_web/core/presentation/widgets/loading_indicator.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/providers/business_profile_viewmodel.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/widgets/business_profile_account_info_card.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/widgets/business_profile_account_management_card.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/widgets/business_profile_hanjin_contract_card.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/widgets/business_profile_info_card.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/widgets/business_profile_seller_info_card.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/widgets/business_profile_support_section.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/widgets/hanjin_contract_input_dialog.dart';
-import 'package:moding_president_web/feature/notification/presentation/widgets/notification_bell_button.dart';
-import 'package:moding_president_web/feature/reauth/presentation/widgets/reauth_required_card.dart';
-import 'package:moding_president_web/feature/support/domain/enums/support_center_type.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/constants/app_responsive_layout.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/app_dialogs.dart';
+import 'package:moding_seller_web/core/presentation/widgets/loading_indicator.dart';
+import 'package:moding_seller_web/core/presentation/widgets/text_arrow_widget.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/providers/business_profile_viewmodel.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/widgets/business_profile_account_info_card.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/widgets/business_profile_account_management_card.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/widgets/business_profile_hanjin_contract_card.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/widgets/business_profile_info_card.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/widgets/business_profile_seller_info_card.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/widgets/business_profile_support_section.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/widgets/hanjin_contract_input_dialog.dart';
+import 'package:moding_seller_web/feature/notification/presentation/widgets/notification_bell_button.dart';
+import 'package:moding_seller_web/feature/reauth/presentation/widgets/reauth_required_card.dart';
+import 'package:moding_seller_web/feature/support/domain/enums/support_center_type.dart';
 
 class BusinessProfileManagementPage extends ConsumerStatefulWidget {
   const BusinessProfileManagementPage({super.key});
@@ -106,6 +107,10 @@ class _BusinessProfileManagementPageState
     await AppDialog.showError(context, message);
   }
 
+  void _openSellerWithdrawalPage() {
+    context.push('/seller-profile/withdraw');
+  }
+
   @override
   Widget build(BuildContext context) {
     final state = ref.watch(businessProfileViewModelProvider);
@@ -121,7 +126,7 @@ class _BusinessProfileManagementPageState
     } else if (state.needsReauth) {
       content = ReauthRequiredCard(
         title: '비밀번호 재확인',
-        description: '판매자 프로필 관리는 재인증 키가 필요합니다. 비밀번호를 다시 입력한 뒤 계속 진행해주세요.',
+        description: '판매자 프로필 관리는 비밀번호 재확인이 필요합니다.',
         buttonLabel: '사업자 정보 확인',
         onSuccess: _loadProfileAfterReauth,
       );
@@ -176,6 +181,17 @@ class _BusinessProfileManagementPageState
           ),
           const SizedBox(height: 16),
           BusinessProfileSupportSection(onOpenSupport: _openSupport),
+          const SizedBox(height: 16),
+          InkWell(
+            onTap: _openSellerWithdrawalPage,
+            child: SizedBox(
+              height: 50,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [TextArrowWidget(text: "판매자 권한 해지 신청")],
+              ),
+            ),
+          ),
         ],
       );
     }
@@ -210,7 +226,7 @@ class _BusinessProfileManagementPageState
                               ),
                               const SizedBox(height: 8),
                               Text(
-                                '사업자 정보를 확인하려면 비밀번호 재인증이 필요합니다.',
+                                '사업자 정보를 확인하려면 비밀번호 재확인이 필요합니다.',
                                 style: context.body.copyWith(
                                   color: AppColors.darkGrey,
                                   height: 1.45,

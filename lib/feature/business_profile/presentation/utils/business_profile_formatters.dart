@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/business_profile/domain/entities/business_profile.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/business_profile.dart';
 
 String composeBusinessAddress(BusinessProfile profile) {
   final values = <String>[

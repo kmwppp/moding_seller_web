@@ -1,9 +1,9 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/support/data/data_sources/support_data_source.dart';
-import 'package:moding_president_web/feature/support/domain/entities/support_faq_detail.dart';
-import 'package:moding_president_web/feature/support/domain/entities/support_faq_page_result.dart';
-import 'package:moding_president_web/feature/support/domain/entities/support_notice_detail.dart';
-import 'package:moding_president_web/feature/support/domain/entities/support_notice_page_result.dart';
+import 'package:moding_seller_web/feature/support/data/data_sources/support_data_source.dart';
+import 'package:moding_seller_web/feature/support/domain/entities/support_faq_detail.dart';
+import 'package:moding_seller_web/feature/support/domain/entities/support_faq_page_result.dart';
+import 'package:moding_seller_web/feature/support/domain/entities/support_notice_detail.dart';
+import 'package:moding_seller_web/feature/support/domain/entities/support_notice_page_result.dart';
 
 final supportRepositoryProvider = Provider<SupportRepository>((ref) {
   return SupportRepository(ref.watch(supportDataSourceProvider));

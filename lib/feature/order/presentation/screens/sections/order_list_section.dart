@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/order/presentation/providers/order_management_viewmodel.dart';
+import 'package:moding_seller_web/feature/order/presentation/providers/order_management_viewmodel.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/constants/app_responsive_layout.dart';

@@ -1,11 +1,11 @@
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/core/utils/app_enum.dart';
-import 'package:moding_president_web/feature/preparing_delivery/data/repositories/preparing_repository_impl.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/entities/tracking_validation_result.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/entities/variable_weight_delivery_item_request.dart';
-import 'package:moding_president_web/feature/preparing_delivery/presentation/enums/hanjin_delivery_options.dart';
-import 'package:moding_president_web/feature/preparing_delivery/presentation/providers/dash_delivery_state.dart';
-import 'package:moding_president_web/feature/preparing_delivery/presentation/enums/delivery_execute_tab.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/core/utils/app_enum.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/data/repositories/preparing_repository_impl.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/entities/tracking_validation_result.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/entities/variable_weight_delivery_item_request.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/presentation/enums/hanjin_delivery_options.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/presentation/providers/dash_delivery_state.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/presentation/enums/delivery_execute_tab.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../domain/entities/carrier_model.dart';

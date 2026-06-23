@@ -1,10 +1,10 @@
 import 'dart:typed_data';
 
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/feature/product/domain/entities/delivery_district_option.dart';
-import 'package:moding_president_web/feature/product/domain/entities/check_product/product_list_page_result.dart';
-import 'package:moding_president_web/feature/product/domain/entities/check_product/my_product_summary_model.dart';
-import 'package:moding_president_web/feature/product/domain/entities/enum/product_management_enum.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/delivery_district_option.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/check_product/product_list_page_result.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/check_product/my_product_summary_model.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/enum/product_management_enum.dart';
 
 import '../entities/check_product/my_product_detail_model.dart';
 import '../entities/create_product/create_product_model.dart';

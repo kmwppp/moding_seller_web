@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/notification/domain/entities/notification_item.dart';
+import 'package:moding_seller_web/feature/notification/domain/entities/notification_item.dart';
 
 class NotificationPageResult {
   const NotificationPageResult({

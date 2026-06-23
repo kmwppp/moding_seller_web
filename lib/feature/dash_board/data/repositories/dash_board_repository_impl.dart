@@ -1,9 +1,9 @@
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/core/presentation/widgets/new_order_check.dart';
-import 'package:moding_president_web/feature/dash_board/data/data_source/dash_board_data_source.dart';
-import 'package:moding_president_web/feature/dash_board/domain/entities/dash_board_model.dart';
-import 'package:moding_president_web/feature/dash_board/domain/repositories/dash_board_repository.dart';
-import 'package:moding_president_web/feature/order/domain/entities/order_model.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/core/presentation/widgets/new_order_check.dart';
+import 'package:moding_seller_web/feature/dash_board/data/data_source/dash_board_data_source.dart';
+import 'package:moding_seller_web/feature/dash_board/domain/entities/dash_board_model.dart';
+import 'package:moding_seller_web/feature/dash_board/domain/repositories/dash_board_repository.dart';
+import 'package:moding_seller_web/feature/order/domain/entities/order_model.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'dash_board_repository_impl.g.dart';

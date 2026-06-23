@@ -1,9 +1,9 @@
-import 'package:moding_president_web/feature/order/data/data_source/order_data_source.dart';
-import 'package:moding_president_web/feature/order/domain/entities/order_list_page_result.dart';
-import 'package:moding_president_web/feature/order/domain/entities/order_model.dart';
-import 'package:moding_president_web/feature/order/domain/entities/order_summary_model.dart';
-import 'package:moding_president_web/feature/order/domain/enums/order_status_enum.dart';
-import 'package:moding_president_web/feature/order/domain/repositories/order_repository.dart';
+import 'package:moding_seller_web/feature/order/data/data_source/order_data_source.dart';
+import 'package:moding_seller_web/feature/order/domain/entities/order_list_page_result.dart';
+import 'package:moding_seller_web/feature/order/domain/entities/order_model.dart';
+import 'package:moding_seller_web/feature/order/domain/entities/order_summary_model.dart';
+import 'package:moding_seller_web/feature/order/domain/enums/order_status_enum.dart';
+import 'package:moding_seller_web/feature/order/domain/repositories/order_repository.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../../../core/network/entities/response_model.dart';

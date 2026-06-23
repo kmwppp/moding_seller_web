@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/core/presentation/dialogs/app_dialogs.dart';
-import 'package:moding_president_web/feature/product/data/repositories/product_repository_impl.dart';
-import 'package:moding_president_web/feature/product/presentation/providers/product_register/product_register_state.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/app_dialogs.dart';
+import 'package:moding_seller_web/feature/product/data/repositories/product_repository_impl.dart';
+import 'package:moding_seller_web/feature/product/presentation/providers/product_register/product_register_state.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../../domain/entities/create_product/create_product_model.dart';

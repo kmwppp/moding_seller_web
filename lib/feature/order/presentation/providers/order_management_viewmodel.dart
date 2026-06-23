@@ -1,5 +1,5 @@
-import 'package:moding_president_web/feature/order/data/repositories/order_repository_impl.dart';
-import 'package:moding_president_web/feature/order/presentation/providers/order_management_state.dart';
+import 'package:moding_seller_web/feature/order/data/repositories/order_repository_impl.dart';
+import 'package:moding_seller_web/feature/order/presentation/providers/order_management_state.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../../../core/network/entities/response_model.dart';

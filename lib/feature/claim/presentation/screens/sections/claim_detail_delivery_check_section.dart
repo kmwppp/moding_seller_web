@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/enums/delivery_method.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/enums/delivery_method.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/theme/app_box_styles.dart';

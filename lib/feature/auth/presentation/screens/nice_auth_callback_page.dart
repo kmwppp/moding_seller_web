@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_center_card.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_info_notice.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_page_header.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_page_shell.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_center_card.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_info_notice.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_page_header.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_page_shell.dart';
 
 class NiceAuthCallbackPage extends StatefulWidget {
   const NiceAuthCallbackPage({

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/constants/app_responsive_layout.dart';
-import 'package:moding_president_web/core/presentation/widgets/loading_indicator.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/settlement/presentation/screens/sections/settlement_period_selector_section.dart';
-import 'package:moding_president_web/feature/notification/presentation/widgets/notification_bell_button.dart';
-import 'package:moding_president_web/feature/claim/presentation/screens/sections/claim_list_section.dart';
-import 'package:moding_president_web/feature/claim/presentation/screens/widgets/claim_widgets.dart';
+import 'package:moding_seller_web/core/constants/app_responsive_layout.dart';
+import 'package:moding_seller_web/core/presentation/widgets/loading_indicator.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/sections/settlement_period_selector_section.dart';
+import 'package:moding_seller_web/feature/notification/presentation/widgets/notification_bell_button.dart';
+import 'package:moding_seller_web/feature/claim/presentation/screens/sections/claim_list_section.dart';
+import 'package:moding_seller_web/feature/claim/presentation/screens/widgets/claim_widgets.dart';
 import '../providers/claim_main/claim_main_viewmodel.dart';
 
 class ClaimPage extends ConsumerStatefulWidget {

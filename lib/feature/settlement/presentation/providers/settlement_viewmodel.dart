@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/settlement/presentation/providers/settlement_state.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/providers/settlement_state.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../data/repositories/settlement_repository_impl.dart';

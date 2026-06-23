@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:moding_president_web/feature/settlement/presentation/screens/sections/settlement_period_selector_section.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/sections/settlement_period_selector_section.dart';
 
 class EvidencePeriodSelectorSection extends StatelessWidget {
   const EvidencePeriodSelectorSection({

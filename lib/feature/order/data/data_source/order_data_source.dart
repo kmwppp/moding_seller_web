@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:moding_president_web/core/network/dio_client.dart';
-import 'package:moding_president_web/feature/order/domain/enums/order_status_enum.dart';
+import 'package:moding_seller_web/core/network/dio_client.dart';
+import 'package:moding_seller_web/feature/order/domain/enums/order_status_enum.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../../../core/constants/app_http_urls.dart';

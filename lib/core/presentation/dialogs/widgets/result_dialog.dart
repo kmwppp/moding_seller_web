@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/dash_board/presentation/screens/widgets/custom_button.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/dash_board/presentation/screens/widgets/custom_button.dart';
 
 import '../../../constants/app_colors.dart';
 

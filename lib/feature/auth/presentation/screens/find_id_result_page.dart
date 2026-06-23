@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_page_shell.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_result_card.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_page_shell.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_result_card.dart';
 
 class FindIdResultPage extends StatelessWidget {
   const FindIdResultPage({super.key, required this.loginId});

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/core/utils/app_enum.dart';
-import 'package:moding_president_web/feature/order/domain/entities/order_model.dart';
-import 'package:moding_president_web/feature/order/domain/enums/order_status_enum.dart';
-import 'package:moding_president_web/feature/order/presentation/providers/order_management_viewmodel.dart';
+import 'package:moding_seller_web/core/utils/app_enum.dart';
+import 'package:moding_seller_web/feature/order/domain/entities/order_model.dart';
+import 'package:moding_seller_web/feature/order/domain/enums/order_status_enum.dart';
+import 'package:moding_seller_web/feature/order/presentation/providers/order_management_viewmodel.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/presentation/dialogs/app_dialogs.dart';

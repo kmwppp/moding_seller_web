@@ -1,6 +1,6 @@
-# moding_president_web
+# 모딩 판매자 페이지
 
-moding president web
+모딩 판매자 페이지
 
 ## Getting Started
 

@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:moding_president_web/core/utils/app_enum.dart';
-import 'package:moding_president_web/core/utils/string_util.dart';
-import 'package:moding_president_web/feature/evidence/data/repositories/evidence_repository.dart';
-import 'package:moding_president_web/feature/evidence/domain/entities/tax_invoice_item.dart';
+import 'package:moding_seller_web/core/utils/app_enum.dart';
+import 'package:moding_seller_web/core/utils/string_util.dart';
+import 'package:moding_seller_web/feature/evidence/data/repositories/evidence_repository.dart';
+import 'package:moding_seller_web/feature/evidence/domain/entities/tax_invoice_item.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../models/evidence_models.dart';

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/core/presentation/dialogs/app_dialogs.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/entities/preparing_order_model.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/entities/variable_weight_delivery_item_request.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/app_dialogs.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/entities/preparing_order_model.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/entities/variable_weight_delivery_item_request.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 

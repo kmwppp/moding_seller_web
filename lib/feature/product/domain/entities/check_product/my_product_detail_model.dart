@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:moding_president_web/feature/product/domain/entities/direct_delivery_district.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/direct_delivery_district.dart';
 
 import '../create_product/product_option.dart';
 

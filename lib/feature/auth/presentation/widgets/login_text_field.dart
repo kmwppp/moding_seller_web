@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/theme/app_input_decoration.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/core/theme/app_input_decoration.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
 
 class LoginTextField extends StatelessWidget {
   const LoginTextField({

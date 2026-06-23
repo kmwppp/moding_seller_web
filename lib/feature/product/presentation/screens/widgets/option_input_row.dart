@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/product/presentation/providers/product_register/product_register_viewmodel.dart';
+import 'package:moding_seller_web/feature/product/presentation/providers/product_register/product_register_viewmodel.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/theme/app_input_decoration.dart';

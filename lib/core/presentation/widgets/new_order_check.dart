@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/presentation/enums/order_reject_reason_enum.dart';
-import 'package:moding_president_web/core/theme/app_input_decoration.dart';
-import 'package:moding_president_web/core/utils/app_enum.dart';
-import 'package:moding_president_web/core/utils/string_util.dart';
+import 'package:moding_seller_web/core/presentation/enums/order_reject_reason_enum.dart';
+import 'package:moding_seller_web/core/theme/app_input_decoration.dart';
+import 'package:moding_seller_web/core/utils/app_enum.dart';
+import 'package:moding_seller_web/core/utils/string_util.dart';
 
 import '../../../feature/dash_board/presentation/screens/widgets/custom_button.dart';
 import '../../../feature/order/domain/entities/order_model.dart';

@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/notification/domain/enums/notification_target_page.dart';
+import 'package:moding_seller_web/feature/notification/domain/enums/notification_target_page.dart';
 
 class NotificationItem {
   const NotificationItem({

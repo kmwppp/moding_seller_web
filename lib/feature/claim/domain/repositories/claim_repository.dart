@@ -1,8 +1,8 @@
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/feature/claim/domain/entities/claim_detail/claim_detail_model.dart';
-import 'package:moding_president_web/feature/claim/domain/entities/claim_list_page_result.dart';
-import 'package:moding_president_web/feature/claim/domain/entities/claim_summary_model.dart';
-import 'package:moding_president_web/feature/preparing_delivery/domain/entities/tracking_validation_result.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/feature/claim/domain/entities/claim_detail/claim_detail_model.dart';
+import 'package:moding_seller_web/feature/claim/domain/entities/claim_list_page_result.dart';
+import 'package:moding_seller_web/feature/claim/domain/entities/claim_summary_model.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/domain/entities/tracking_validation_result.dart';
 
 import '../../../preparing_delivery/domain/entities/carrier_model.dart';
 import '../../presentation/models/approve_type.dart';

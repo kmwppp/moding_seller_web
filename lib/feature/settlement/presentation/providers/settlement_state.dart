@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:moding_president_web/feature/settlement/domain/entities/settlement_model.dart';
-import 'package:moding_president_web/feature/settlement/domain/entities/settlement_summary_model.dart';
+import 'package:moding_seller_web/feature/settlement/domain/entities/settlement_model.dart';
+import 'package:moding_seller_web/feature/settlement/domain/entities/settlement_summary_model.dart';
 
 import '../../domain/enums/settlement_tab.dart';
 import '../models/settlement_item.dart';

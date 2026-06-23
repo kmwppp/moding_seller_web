@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/constants/app_responsive_layout.dart';
-import 'package:moding_president_web/core/presentation/widgets/loading_indicator.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/notification/domain/entities/notification_item.dart';
-import 'package:moding_president_web/feature/notification/domain/enums/notification_filter.dart';
-import 'package:moding_president_web/feature/notification/presentation/providers/notification_panel_viewmodel.dart';
-import 'package:moding_president_web/feature/notification/presentation/utils/notification_navigation.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/constants/app_responsive_layout.dart';
+import 'package:moding_seller_web/core/presentation/widgets/loading_indicator.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/notification/domain/entities/notification_item.dart';
+import 'package:moding_seller_web/feature/notification/domain/enums/notification_filter.dart';
+import 'package:moding_seller_web/feature/notification/presentation/providers/notification_panel_viewmodel.dart';
+import 'package:moding_seller_web/feature/notification/presentation/utils/notification_navigation.dart';
 
 class NotificationPanel extends ConsumerStatefulWidget {
   const NotificationPanel({super.key, required this.hostContext});

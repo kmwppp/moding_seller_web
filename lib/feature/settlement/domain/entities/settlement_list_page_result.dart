@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/settlement/domain/entities/settlement_model.dart';
+import 'package:moding_seller_web/feature/settlement/domain/entities/settlement_model.dart';
 
 class SettlementListPageResult {
   const SettlementListPageResult({

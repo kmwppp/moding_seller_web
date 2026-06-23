@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
 
 class HanjinContractInputDialog extends StatefulWidget {
   const HanjinContractInputDialog({super.key, this.initialValue});
@@ -46,7 +46,7 @@ class _HanjinContractInputDialogState extends State<HanjinContractInputDialog> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              '정산 계좌와 연결되는 한진 계약 번호를 입력해주세요.',
+              '한진 원클릭 배송과 연결되는 한진 계약 번호를 입력해주세요.',
               style: context.body.copyWith(
                 color: AppColors.darkGrey,
                 height: 1.45,

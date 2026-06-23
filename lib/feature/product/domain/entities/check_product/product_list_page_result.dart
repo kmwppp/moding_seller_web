@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/product/domain/entities/check_product/my_product_model.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/check_product/my_product_model.dart';
 
 class ProductListPageResult {
   const ProductListPageResult({

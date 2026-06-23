@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:dio/dio.dart';
-import 'package:moding_president_web/core/network/dio_client.dart';
-import 'package:moding_president_web/feature/product/domain/entities/enum/product_management_enum.dart';
+import 'package:moding_seller_web/core/network/dio_client.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/enum/product_management_enum.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../../../core/constants/app_http_urls.dart';

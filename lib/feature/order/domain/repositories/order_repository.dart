@@ -1,5 +1,5 @@
-import 'package:moding_president_web/feature/order/domain/entities/order_list_page_result.dart';
-import 'package:moding_president_web/feature/order/domain/entities/order_summary_model.dart';
+import 'package:moding_seller_web/feature/order/domain/entities/order_list_page_result.dart';
+import 'package:moding_seller_web/feature/order/domain/entities/order_summary_model.dart';
 
 import '../../../../core/network/entities/response_model.dart';
 import '../../../../core/presentation/widgets/new_order_check.dart';

@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/review/domain/entities/review_item.dart';
+import 'package:moding_seller_web/feature/review/domain/entities/review_item.dart';
 
 class ReviewManagementState {
   const ReviewManagementState({

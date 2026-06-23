@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/presentation/dialogs/app_dialogs.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/app_dialogs.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:moding_president_web/core/presentation/widgets/loading_indicator.dart';
-import 'package:moding_president_web/feature/evidence/presentation/models/evidence_models.dart';
+import 'package:moding_seller_web/core/presentation/widgets/loading_indicator.dart';
+import 'package:moding_seller_web/feature/evidence/presentation/models/evidence_models.dart';
 
 import '../widgets/evidence_fee_settlement_invoice_card.dart';
 import '../widgets/evidence_tax_invoice_card.dart';

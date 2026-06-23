@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/presentation/dialogs/app_dialogs.dart';
-import 'package:moding_president_web/core/presentation/widgets/modal/web_bottom_sheet.dart';
-import 'package:moding_president_web/core/theme/app_input_decoration.dart';
-import 'package:moding_president_web/feature/product/presentation/providers/product_register/product_register_viewmodel.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/widgets/category_selector_sheet.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/widgets/product_guide_info.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/widgets/product_label.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/app_dialogs.dart';
+import 'package:moding_seller_web/core/presentation/widgets/modal/web_bottom_sheet.dart';
+import 'package:moding_seller_web/core/theme/app_input_decoration.dart';
+import 'package:moding_seller_web/feature/product/presentation/providers/product_register/product_register_viewmodel.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/widgets/category_selector_sheet.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/widgets/product_guide_info.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/widgets/product_label.dart';
 
 import '../../../../../../core/constants/app_colors.dart';
 import '../../../../../../core/theme/app_box_styles.dart';

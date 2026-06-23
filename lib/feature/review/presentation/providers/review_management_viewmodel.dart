@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/review/data/repositories/review_repository.dart';
-import 'package:moding_president_web/feature/review/presentation/providers/review_management_state.dart';
+import 'package:moding_seller_web/feature/review/data/repositories/review_repository.dart';
+import 'package:moding_seller_web/feature/review/presentation/providers/review_management_state.dart';
 
 final reviewManagementViewModelProvider =
     NotifierProvider<ReviewManagementViewModel, ReviewManagementState>(

@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:moding_president_web/feature/product/domain/entities/create_product/product_option.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/create_product/product_option.dart';
 
 part 'create_product_model.freezed.dart';
 part 'create_product_model.g.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/review/domain/entities/review_item.dart';
-import 'package:moding_president_web/feature/review/presentation/widgets/review_photo_viewer.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/review/domain/entities/review_item.dart';
+import 'package:moding_seller_web/feature/review/presentation/widgets/review_photo_viewer.dart';
 
 class ReviewPhotoStrip extends StatelessWidget {
   const ReviewPhotoStrip({super.key, required this.photos});

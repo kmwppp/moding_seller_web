@@ -8,6 +8,6 @@ part 'main_screen_model.freezed.dart';
 abstract class MainScreenModel with _$MainScreenModel {
   const factory MainScreenModel({
     @Default(AppStrings.dashBoard) String title,
-    @Default("assets/images/icons/dashboardIcon.png") String iconUrl,
+    @Default("assets/images/icons/homeIcon.png") String iconUrl,
   }) = _MainScreenModel;
 }

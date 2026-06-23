@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/product/domain/entities/delivery_district_option.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/delivery_district_option.dart';
 
 class DirectDeliveryDistrict {
   const DirectDeliveryDistrict({

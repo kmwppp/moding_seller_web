@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/utils/app_enum.dart';
-import 'package:moding_president_web/feature/settlement/presentation/providers/settlement_viewmodel.dart';
-import 'package:moding_president_web/feature/settlement/presentation/screens/widgets/settlement_detail_section.dart';
-import 'package:moding_president_web/feature/settlement/presentation/screens/widgets/settlement_status_badge.dart';
+import 'package:moding_seller_web/core/utils/app_enum.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/providers/settlement_viewmodel.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/widgets/settlement_detail_section.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/widgets/settlement_status_badge.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/theme/app_box_styles.dart';

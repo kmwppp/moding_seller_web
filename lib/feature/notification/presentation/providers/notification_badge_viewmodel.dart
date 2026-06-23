@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/notification/data/repositories/notification_repository.dart';
-import 'package:moding_president_web/feature/notification/presentation/providers/notification_badge_state.dart';
+import 'package:moding_seller_web/feature/notification/data/repositories/notification_repository.dart';
+import 'package:moding_seller_web/feature/notification/presentation/providers/notification_badge_state.dart';
 
 final notificationBadgeViewModelProvider =
     NotifierProvider<NotificationBadgeViewModel, NotificationBadgeState>(

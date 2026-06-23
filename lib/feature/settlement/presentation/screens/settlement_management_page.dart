@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/presentation/widgets/loading_indicator.dart';
-import 'package:moding_president_web/core/utils/app_enum.dart';
-import 'package:moding_president_web/core/utils/string_util.dart';
-import 'package:moding_president_web/feature/notification/presentation/widgets/notification_bell_button.dart';
-import 'package:moding_president_web/feature/settlement/presentation/screens/sections/settlement_calendar_summary_section.dart';
-import 'package:moding_president_web/feature/settlement/presentation/screens/sections/settlement_list_section.dart';
-import 'package:moding_president_web/feature/settlement/presentation/screens/sections/settlement_pending_risk_alert_section.dart';
-import 'package:moding_president_web/feature/settlement/presentation/screens/sections/settlement_period_selector_section.dart';
-import 'package:moding_president_web/feature/settlement/presentation/screens/sections/settlement_top_status_section.dart';
+import 'package:moding_seller_web/core/presentation/widgets/loading_indicator.dart';
+import 'package:moding_seller_web/core/utils/app_enum.dart';
+import 'package:moding_seller_web/core/utils/string_util.dart';
+import 'package:moding_seller_web/feature/notification/presentation/widgets/notification_bell_button.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/sections/settlement_calendar_summary_section.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/sections/settlement_list_section.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/sections/settlement_pending_risk_alert_section.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/sections/settlement_period_selector_section.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/sections/settlement_top_status_section.dart';
 
 import '../../../../core/constants/app_responsive_layout.dart';
 import '../../../../core/theme/app_text_styles.dart';

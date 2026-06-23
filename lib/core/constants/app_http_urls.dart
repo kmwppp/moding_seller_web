@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/order/domain/enums/order_status_enum.dart';
+import 'package:moding_seller_web/feature/order/domain/enums/order_status_enum.dart';
 
 class AppHttpUrls {
   /// ----------------------------------------
@@ -21,6 +21,7 @@ class AppHttpUrls {
   static const String getMyUserInfo = '/api/v1/users/me';
   static const String getMySellerProfileInfo = '/api/v1/seller-profiles/me';
   static const String putMySellerProfileInfo = '/api/v1/seller-profiles/me';
+  static const String deleteMySellerProfileInfo = '/api/v1/seller-profiles/me';
   static const String getMyRefundAccountInfo = '/api/v1/refund-accounts/me';
   static const String patchMyHanjinContract =
       '/api/v1/seller-profiles/me/hanjin-contract';

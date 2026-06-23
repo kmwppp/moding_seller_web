@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/core/presentation/widgets/loading_indicator.dart';
-import 'package:moding_president_web/feature/notification/presentation/widgets/notification_bell_button.dart';
-import 'package:moding_president_web/feature/product/presentation/providers/product_register/product_register_viewmodel.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/sections/basic_info_section.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/sections/delivery_info_section.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/sections/food_info_section.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/sections/operation_info_section.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/sections/option_section.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/sections/product_image_section.dart';
-import 'package:moding_president_web/feature/product/presentation/screens/sections/storage_info_section.dart';
+import 'package:moding_seller_web/core/presentation/widgets/loading_indicator.dart';
+import 'package:moding_seller_web/feature/notification/presentation/widgets/notification_bell_button.dart';
+import 'package:moding_seller_web/feature/product/presentation/providers/product_register/product_register_viewmodel.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/sections/basic_info_section.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/sections/delivery_info_section.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/sections/food_info_section.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/sections/operation_info_section.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/sections/option_section.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/sections/product_image_section.dart';
+import 'package:moding_seller_web/feature/product/presentation/screens/sections/storage_info_section.dart';
 
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/presentation/dialogs/app_dialogs.dart';

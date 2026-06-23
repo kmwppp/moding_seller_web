@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/order/domain/entities/order_model.dart';
+import 'package:moding_seller_web/feature/order/domain/entities/order_model.dart';
 
 class OrderListPageResult {
   const OrderListPageResult({

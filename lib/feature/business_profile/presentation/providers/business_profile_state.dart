@@ -1,7 +1,7 @@
-import 'package:moding_president_web/feature/business_profile/domain/entities/business_profile.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/my_account_info.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/refund_account_info.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_info.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/business_profile.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/my_account_info.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/refund_account_info.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_info.dart';
 
 class BusinessProfileState {
   const BusinessProfileState({

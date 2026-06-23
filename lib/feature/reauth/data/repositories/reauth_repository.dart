@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/services/token_storage.dart';
-import 'package:moding_president_web/feature/reauth/data/data_sources/reauth_data_source.dart';
+import 'package:moding_seller_web/core/services/token_storage.dart';
+import 'package:moding_seller_web/feature/reauth/data/data_sources/reauth_data_source.dart';
 
 final reauthRepositoryProvider = Provider<ReauthRepository>((ref) {
   return ReauthRepository(

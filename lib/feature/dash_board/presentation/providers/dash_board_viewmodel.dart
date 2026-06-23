@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/core/presentation/widgets/new_order_check.dart';
-import 'package:moding_president_web/feature/dash_board/data/repositories/dash_board_repository_impl.dart';
-import 'package:moding_president_web/feature/dash_board/presentation/providers/dash_board_state.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/core/presentation/widgets/new_order_check.dart';
+import 'package:moding_seller_web/feature/dash_board/data/repositories/dash_board_repository_impl.dart';
+import 'package:moding_seller_web/feature/dash_board/presentation/providers/dash_board_state.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:url_launcher/url_launcher.dart';
 

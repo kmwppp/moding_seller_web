@@ -1,14 +1,14 @@
 import 'dart:typed_data';
 
 import 'package:dio/dio.dart';
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/feature/product/data/data_source/product_remote_data_source.dart';
-import 'package:moding_president_web/feature/product/domain/entities/check_product/my_product_model.dart';
-import 'package:moding_president_web/feature/product/domain/entities/check_product/product_list_page_result.dart';
-import 'package:moding_president_web/feature/product/domain/entities/check_product/my_product_summary_model.dart';
-import 'package:moding_president_web/feature/product/domain/entities/delivery_district_option.dart';
-import 'package:moding_president_web/feature/product/domain/entities/enum/product_management_enum.dart';
-import 'package:moding_president_web/feature/product/domain/repositories/product_repository.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/feature/product/data/data_source/product_remote_data_source.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/check_product/my_product_model.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/check_product/product_list_page_result.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/check_product/my_product_summary_model.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/delivery_district_option.dart';
+import 'package:moding_seller_web/feature/product/domain/entities/enum/product_management_enum.dart';
+import 'package:moding_seller_web/feature/product/domain/repositories/product_repository.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../domain/entities/check_product/my_product_detail_model.dart';

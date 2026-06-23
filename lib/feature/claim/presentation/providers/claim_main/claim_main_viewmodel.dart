@@ -1,6 +1,6 @@
-import 'package:moding_president_web/feature/claim/data/repositories/claim_repository_impl.dart';
-import 'package:moding_president_web/feature/claim/domain/enums/claim_enum.dart';
-import 'package:moding_president_web/feature/claim/presentation/providers/claim_main/claim_main_state.dart';
+import 'package:moding_seller_web/feature/claim/data/repositories/claim_repository_impl.dart';
+import 'package:moding_seller_web/feature/claim/domain/enums/claim_enum.dart';
+import 'package:moding_seller_web/feature/claim/presentation/providers/claim_main/claim_main_state.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'claim_main_viewmodel.g.dart';

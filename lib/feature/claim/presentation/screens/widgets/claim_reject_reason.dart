@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/presentation/dialogs/app_dialogs.dart';
-import 'package:moding_president_web/core/theme/app_input_decoration.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/claim/presentation/providers/claim_detail/claim_detail_state.dart';
-import 'package:moding_president_web/feature/claim/presentation/providers/claim_detail/claim_detail_viewmodel.dart';
-import 'package:moding_president_web/feature/claim/presentation/providers/claim_main/claim_main_viewmodel.dart';
-import 'package:moding_president_web/feature/dash_board/presentation/screens/widgets/custom_button.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/app_dialogs.dart';
+import 'package:moding_seller_web/core/theme/app_input_decoration.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/claim/presentation/providers/claim_detail/claim_detail_state.dart';
+import 'package:moding_seller_web/feature/claim/presentation/providers/claim_detail/claim_detail_viewmodel.dart';
+import 'package:moding_seller_web/feature/claim/presentation/providers/claim_main/claim_main_viewmodel.dart';
+import 'package:moding_seller_web/feature/dash_board/presentation/screens/widgets/custom_button.dart';
 
 import '../../models/reason_type.dart';
 

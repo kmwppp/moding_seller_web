@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/services/token_storage.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_center_card.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/auth_page_header.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/services/token_storage.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_center_card.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/auth_page_header.dart';
 
 class AuthResultCard extends ConsumerWidget {
   const AuthResultCard({

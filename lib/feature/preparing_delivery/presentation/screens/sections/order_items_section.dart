@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/preparing_delivery/presentation/providers/dash_delivery_viewmodel.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/presentation/providers/dash_delivery_viewmodel.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../../core/constants/app_colors.dart';

@@ -11,7 +11,7 @@ _PreparingOrderModel _$PreparingOrderModelFromJson(
 ) => _PreparingOrderModel(
   id: (json['id'] as num).toInt(),
   orderCode: json['orderCode'] as String,
-  buyerProfileId: (json['buyerProfileId'] as num).toInt(),
+  buyerBusinessProfileId: (json['buyerBusinessProfileId'] as num).toInt(),
   buyerBusinessName: json['buyerBusinessName'] as String,
   sellerProfileId: (json['sellerProfileId'] as num).toInt(),
   sellerBusinessName: json['sellerBusinessName'] as String,
@@ -57,7 +57,7 @@ Map<String, dynamic> _$PreparingOrderModelToJson(
 ) => <String, dynamic>{
   'id': instance.id,
   'orderCode': instance.orderCode,
-  'buyerProfileId': instance.buyerProfileId,
+  'buyerBusinessProfileId': instance.buyerBusinessProfileId,
   'buyerBusinessName': instance.buyerBusinessName,
   'sellerProfileId': instance.sellerProfileId,
   'sellerBusinessName': instance.sellerBusinessName,

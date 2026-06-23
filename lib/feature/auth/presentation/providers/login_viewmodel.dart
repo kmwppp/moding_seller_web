@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/core/services/token_storage.dart';
-import 'package:moding_president_web/feature/auth/data/repositories/auth_repository_impl.dart';
-import 'package:moding_president_web/feature/auth/domain/entities/auth_session.dart';
-import 'package:moding_president_web/feature/auth/domain/repositories/auth_repository.dart';
-import 'package:moding_president_web/feature/auth/presentation/providers/login_state.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/core/services/token_storage.dart';
+import 'package:moding_seller_web/feature/auth/data/repositories/auth_repository_impl.dart';
+import 'package:moding_seller_web/feature/auth/domain/entities/auth_session.dart';
+import 'package:moding_seller_web/feature/auth/domain/repositories/auth_repository.dart';
+import 'package:moding_seller_web/feature/auth/presentation/providers/login_state.dart';
 
 final loginViewModelProvider = NotifierProvider<LoginViewModel, LoginState>(
   LoginViewModel.new,

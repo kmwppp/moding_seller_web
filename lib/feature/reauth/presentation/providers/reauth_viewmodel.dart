@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/feature/reauth/data/repositories/reauth_repository.dart';
-import 'package:moding_president_web/feature/reauth/presentation/providers/reauth_state.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/feature/reauth/data/repositories/reauth_repository.dart';
+import 'package:moding_seller_web/feature/reauth/presentation/providers/reauth_state.dart';
 
 final reauthViewModelProvider = NotifierProvider<ReauthViewModel, ReauthState>(
   ReauthViewModel.new,

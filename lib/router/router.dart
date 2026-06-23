@@ -1,19 +1,20 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/core/routing/app_navigator_key.dart';
-import 'package:moding_president_web/core/routing/seller_entry_target.dart';
-import 'package:moding_president_web/core/services/token_storage.dart';
-import 'package:moding_president_web/feature/auth/presentation/screens/find_id_page.dart';
-import 'package:moding_president_web/feature/auth/presentation/screens/find_id_result_page.dart';
-import 'package:moding_president_web/feature/auth/presentation/screens/login_page.dart';
-import 'package:moding_president_web/feature/auth/presentation/screens/nice_auth_callback_page.dart';
-import 'package:moding_president_web/feature/auth/presentation/screens/reset_password_page.dart';
-import 'package:moding_president_web/feature/main/presentation/providers/main_viewmodel.dart';
-import 'package:moding_president_web/feature/settlement/presentation/screens/settlement_management_page.dart';
-import 'package:moding_president_web/feature/support/domain/enums/support_center_type.dart';
-import 'package:moding_president_web/feature/support/presentation/screens/support_center_page.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_info.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/screens/seller_profile_edit_page.dart';
+import 'package:moding_seller_web/core/routing/app_navigator_key.dart';
+import 'package:moding_seller_web/core/routing/seller_entry_target.dart';
+import 'package:moding_seller_web/core/services/token_storage.dart';
+import 'package:moding_seller_web/feature/auth/presentation/screens/find_id_page.dart';
+import 'package:moding_seller_web/feature/auth/presentation/screens/find_id_result_page.dart';
+import 'package:moding_seller_web/feature/auth/presentation/screens/login_page.dart';
+import 'package:moding_seller_web/feature/auth/presentation/screens/nice_auth_callback_page.dart';
+import 'package:moding_seller_web/feature/auth/presentation/screens/reset_password_page.dart';
+import 'package:moding_seller_web/feature/main/presentation/providers/main_viewmodel.dart';
+import 'package:moding_seller_web/feature/settlement/presentation/screens/settlement_management_page.dart';
+import 'package:moding_seller_web/feature/support/domain/enums/support_center_type.dart';
+import 'package:moding_seller_web/feature/support/presentation/screens/support_center_page.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_info.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/screens/seller_profile_edit_page.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/screens/seller_withdrawal_page.dart';
 
 import '../feature/claim/presentation/screens/claim_detail_page.dart';
 import '../feature/claim/presentation/screens/claim_page.dart';
@@ -190,6 +191,10 @@ final goRouterProvider = Provider<GoRouter>((ref) {
               ? state.extra as SellerProfileInfo
               : null,
         ),
+      ),
+      GoRoute(
+        path: '/seller-profile/withdraw',
+        builder: (context, state) => const SellerWithdrawalPage(),
       ),
     ],
   );

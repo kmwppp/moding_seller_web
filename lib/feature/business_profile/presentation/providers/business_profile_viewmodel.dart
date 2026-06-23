@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/core/services/token_storage.dart';
-import 'package:moding_president_web/feature/business_profile/data/repositories/business_profile_repository.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/refund_account_info.dart';
-import 'package:moding_president_web/feature/business_profile/presentation/providers/business_profile_state.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/core/services/token_storage.dart';
+import 'package:moding_seller_web/feature/business_profile/data/repositories/business_profile_repository.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/refund_account_info.dart';
+import 'package:moding_seller_web/feature/business_profile/presentation/providers/business_profile_state.dart';
 
 final businessProfileViewModelProvider =
     NotifierProvider<BusinessProfileViewModel, BusinessProfileState>(
@@ -27,7 +27,10 @@ class BusinessProfileViewModel extends Notifier<BusinessProfileState> {
       return;
     }
 
-    await _tokenStorage.deleteReauthKey();
+    await requireReauthOnEntry();
+  }
+
+  Future<void> requireReauthOnEntry() async {
     state = state.copyWith(
       isInitialized: true,
       isLoading: false,
@@ -37,6 +40,7 @@ class BusinessProfileViewModel extends Notifier<BusinessProfileState> {
       clearSellerProfile: true,
       clearRefundAccount: true,
     );
+    await _tokenStorage.deleteReauthKey();
   }
 
   Future<String?> loadProfileAfterReauth() async {

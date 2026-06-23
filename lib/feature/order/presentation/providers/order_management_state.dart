@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:moding_president_web/feature/order/domain/entities/order_summary_model.dart';
+import 'package:moding_seller_web/feature/order/domain/entities/order_summary_model.dart';
 
 import '../../domain/entities/order_model.dart';
 import '../../domain/enums/order_status_enum.dart';

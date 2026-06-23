@@ -1,13 +1,13 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/business_profile/data/data_sources/business_profile_data_source.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/bank_code_option.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/business_profile.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/my_account_info.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/refund_account_info.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_document.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_edit_file.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_info.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_update_request.dart';
+import 'package:moding_seller_web/feature/business_profile/data/data_sources/business_profile_data_source.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/bank_code_option.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/business_profile.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/my_account_info.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/refund_account_info.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_document.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_edit_file.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_info.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_update_request.dart';
 
 final businessProfileRepositoryProvider = Provider<BusinessProfileRepository>((
   ref,
@@ -77,6 +77,18 @@ class BusinessProfileRepository {
     return _dataSource.updateMyHanjinContract(contractNo);
   }
 
+  Future<void> withdrawFromSelling(String reauthKey) {
+    return _dataSource.withdrawFromSelling(reauthKey).then((response) {
+      final success = response['success'];
+      if (success == false) {
+        final message = response['message']?.toString() ?? '';
+        throw BusinessProfileRepositoryException(
+          message.isNotEmpty ? message : '판매자 권한 해지 신청에 실패했습니다.',
+        );
+      }
+    });
+  }
+
   Future<SellerProfileEditFile?> downloadDocumentFile(
     SellerProfileDocument document, {
     int index = 0,
@@ -98,4 +110,10 @@ class BusinessProfileRepository {
       bytes: bytes,
     );
   }
+}
+
+class BusinessProfileRepositoryException implements Exception {
+  const BusinessProfileRepositoryException(this.message);
+
+  final String message;
 }

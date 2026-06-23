@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/core/utils/app_enum.dart';
-import 'package:moding_president_web/feature/claim/domain/enums/claim_enum.dart';
-import 'package:moding_president_web/feature/claim/domain/enums/claim_status.dart';
-import 'package:moding_president_web/feature/claim/presentation/providers/claim_main/claim_main_viewmodel.dart';
+import 'package:moding_seller_web/core/utils/app_enum.dart';
+import 'package:moding_seller_web/feature/claim/domain/enums/claim_enum.dart';
+import 'package:moding_seller_web/feature/claim/domain/enums/claim_status.dart';
+import 'package:moding_seller_web/feature/claim/presentation/providers/claim_main/claim_main_viewmodel.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/theme/app_box_styles.dart';

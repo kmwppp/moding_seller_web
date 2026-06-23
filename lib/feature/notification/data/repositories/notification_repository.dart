@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/network/entities/response_model.dart';
-import 'package:moding_president_web/feature/notification/data/data_sources/notification_data_source.dart';
-import 'package:moding_president_web/feature/notification/domain/entities/notification_item.dart';
-import 'package:moding_president_web/feature/notification/domain/entities/notification_page_result.dart';
+import 'package:moding_seller_web/core/network/entities/response_model.dart';
+import 'package:moding_seller_web/feature/notification/data/data_sources/notification_data_source.dart';
+import 'package:moding_seller_web/feature/notification/domain/entities/notification_item.dart';
+import 'package:moding_seller_web/feature/notification/domain/entities/notification_page_result.dart';
 
 final notificationRepositoryProvider = Provider<NotificationRepository>((ref) {
   return NotificationRepository(ref.watch(notificationDataSourceProvider));

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/claim/domain/entities/claim_detail/claim_detail_model.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/claim/domain/entities/claim_detail/claim_detail_model.dart';
 
 class ClaimTrackingEventsSheet extends StatelessWidget {
   const ClaimTrackingEventsSheet({

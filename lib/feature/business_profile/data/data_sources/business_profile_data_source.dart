@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/constants/app_http_urls.dart';
-import 'package:moding_president_web/core/network/dio_client.dart';
-import 'package:moding_president_web/feature/business_profile/domain/entities/seller_profile_update_request.dart';
+import 'package:moding_seller_web/core/constants/app_http_urls.dart';
+import 'package:moding_seller_web/core/network/dio_client.dart';
+import 'package:moding_seller_web/feature/business_profile/domain/entities/seller_profile_update_request.dart';
 import 'dart:typed_data';
 
 final businessProfileDataSourceProvider = Provider<BusinessProfileDataSource>((
@@ -98,10 +98,7 @@ class BusinessProfileDataSource {
       formData.files.add(
         MapEntry(
           'businessPermit',
-          MultipartFile.fromBytes(
-            file.bytes,
-            filename: file.fileName,
-          ),
+          MultipartFile.fromBytes(file.bytes, filename: file.fileName),
         ),
       );
     }
@@ -110,10 +107,7 @@ class BusinessProfileDataSource {
       formData.files.add(
         MapEntry(
           'mailOrderSalesReport',
-          MultipartFile.fromBytes(
-            file.bytes,
-            filename: file.fileName,
-          ),
+          MultipartFile.fromBytes(file.bytes, filename: file.fileName),
         ),
       );
     }
@@ -122,10 +116,7 @@ class BusinessProfileDataSource {
       formData.files.add(
         MapEntry(
           'haccpCertificate',
-          MultipartFile.fromBytes(
-            file.bytes,
-            filename: file.fileName,
-          ),
+          MultipartFile.fromBytes(file.bytes, filename: file.fileName),
         ),
       );
     }
@@ -156,5 +147,16 @@ class BusinessProfileDataSource {
       AppHttpUrls.patchMyHanjinContract,
       data: {'contractNo': contractNo},
     );
+  }
+
+  Future<Map<String, dynamic>> withdrawFromSelling(String reauthKey) async {
+    final response = await _dio.delete(
+      AppHttpUrls.deleteMySellerProfileInfo,
+      options: Options(
+        headers: {'x-reauth-key': reauthKey},
+        extra: {'requiresReauth': true},
+      ),
+    );
+    return Map<String, dynamic>.from(response.data as Map);
   }
 }

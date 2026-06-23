@@ -1,8 +1,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:moding_president_web/feature/claim/domain/entities/claim_detail/claim_detail_model.dart';
-import 'package:moding_president_web/feature/claim/presentation/models/approve_type.dart';
-import 'package:moding_president_web/feature/preparing_delivery/presentation/enums/delivery_execute_tab.dart';
-import 'package:moding_president_web/feature/preparing_delivery/presentation/enums/hanjin_delivery_options.dart';
+import 'package:moding_seller_web/feature/claim/domain/entities/claim_detail/claim_detail_model.dart';
+import 'package:moding_seller_web/feature/claim/presentation/models/approve_type.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/presentation/enums/delivery_execute_tab.dart';
+import 'package:moding_seller_web/feature/preparing_delivery/presentation/enums/hanjin_delivery_options.dart';
 
 import '../../../../preparing_delivery/domain/entities/carrier_model.dart';
 import '../../../../preparing_delivery/domain/enums/delivery_method.dart';

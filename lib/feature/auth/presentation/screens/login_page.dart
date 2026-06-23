@@ -3,15 +3,15 @@ import 'dart:html' as html;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/presentation/dialogs/app_dialogs.dart';
-import 'package:moding_president_web/core/routing/seller_entry_target.dart';
-import 'package:moding_president_web/core/services/token_storage.dart';
-import 'package:moding_president_web/core/theme/app_text_styles.dart';
-import 'package:moding_president_web/feature/auth/data/repositories/auth_repository_impl.dart';
-import 'package:moding_president_web/feature/main/presentation/providers/main_viewmodel.dart';
-import 'package:moding_president_web/feature/auth/presentation/providers/login_viewmodel.dart';
-import 'package:moding_president_web/feature/auth/presentation/widgets/login_form_card.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/app_dialogs.dart';
+import 'package:moding_seller_web/core/routing/seller_entry_target.dart';
+import 'package:moding_seller_web/core/services/token_storage.dart';
+import 'package:moding_seller_web/core/theme/app_text_styles.dart';
+import 'package:moding_seller_web/feature/auth/data/repositories/auth_repository_impl.dart';
+import 'package:moding_seller_web/feature/main/presentation/providers/main_viewmodel.dart';
+import 'package:moding_seller_web/feature/auth/presentation/providers/login_viewmodel.dart';
+import 'package:moding_seller_web/feature/auth/presentation/widgets/login_form_card.dart';
 
 class LoginPage extends ConsumerStatefulWidget {
   const LoginPage({super.key});

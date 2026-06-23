@@ -207,7 +207,7 @@ return $default(_that.title,_that.iconUrl);case _:
 
 
 class _MainScreenModel implements MainScreenModel {
-  const _MainScreenModel({this.title = AppStrings.dashBoard, this.iconUrl = "assets/images/icons/dashboardIcon.png"});
+  const _MainScreenModel({this.title = AppStrings.dashBoard, this.iconUrl = "assets/images/icons/homeIcon.png"});
   
 
 @override@JsonKey() final  String title;

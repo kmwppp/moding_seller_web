@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:moding_president_web/core/presentation/dialogs/widgets/confirm_dialog.dart';
-import 'package:moding_president_web/core/presentation/dialogs/widgets/loading_dialog.dart';
-import 'package:moding_president_web/core/presentation/dialogs/widgets/result_dialog.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/widgets/confirm_dialog.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/widgets/loading_dialog.dart';
+import 'package:moding_seller_web/core/presentation/dialogs/widgets/result_dialog.dart';
 
 class AppDialog {
   /// 결과 다이얼로그

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:moding_president_web/feature/claim/domain/enums/claim_enum.dart';
+import 'package:moding_seller_web/feature/claim/domain/enums/claim_enum.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/presentation/dialogs/app_dialogs.dart';

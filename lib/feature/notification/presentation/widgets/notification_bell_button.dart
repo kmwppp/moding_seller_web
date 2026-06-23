@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/constants/app_colors.dart';
-import 'package:moding_president_web/core/constants/app_responsive_layout.dart';
-import 'package:moding_president_web/feature/notification/presentation/providers/notification_badge_viewmodel.dart';
-import 'package:moding_president_web/feature/notification/presentation/widgets/notification_panel.dart';
+import 'package:moding_seller_web/core/constants/app_colors.dart';
+import 'package:moding_seller_web/core/constants/app_responsive_layout.dart';
+import 'package:moding_seller_web/feature/notification/presentation/providers/notification_badge_viewmodel.dart';
+import 'package:moding_seller_web/feature/notification/presentation/widgets/notification_panel.dart';
 
 class NotificationBellButton extends ConsumerStatefulWidget {
   const NotificationBellButton({super.key, this.iconSize = 26});

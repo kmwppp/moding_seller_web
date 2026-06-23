@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/notification/data/repositories/notification_repository.dart';
-import 'package:moding_president_web/feature/notification/domain/enums/notification_filter.dart';
-import 'package:moding_president_web/feature/notification/presentation/providers/notification_badge_viewmodel.dart';
-import 'package:moding_president_web/feature/notification/presentation/providers/notification_panel_state.dart';
+import 'package:moding_seller_web/feature/notification/data/repositories/notification_repository.dart';
+import 'package:moding_seller_web/feature/notification/domain/enums/notification_filter.dart';
+import 'package:moding_seller_web/feature/notification/presentation/providers/notification_badge_viewmodel.dart';
+import 'package:moding_seller_web/feature/notification/presentation/providers/notification_panel_state.dart';
 
 final notificationPanelViewModelProvider =
     NotifierProvider<NotificationPanelViewModel, NotificationPanelState>(

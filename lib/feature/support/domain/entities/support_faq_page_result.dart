@@ -1,4 +1,4 @@
-import 'package:moding_president_web/feature/support/domain/entities/support_faq_item.dart';
+import 'package:moding_seller_web/feature/support/domain/entities/support_faq_item.dart';
 
 class SupportFaqPageResult {
   const SupportFaqPageResult({

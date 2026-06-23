@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/core/constants/app_responsive_layout.dart';
-import 'package:moding_president_web/core/presentation/widgets/loading_indicator.dart';
-import 'package:moding_president_web/feature/dash_board/presentation/providers/dash_board_viewmodel.dart';
-import 'package:moding_president_web/feature/dash_board/presentation/screens/sections/approval_section.dart';
-import 'package:moding_president_web/feature/dash_board/presentation/screens/sections/delivery_process_section.dart';
-import 'package:moding_president_web/feature/dash_board/presentation/screens/sections/now_order_section.dart';
-import 'package:moding_president_web/feature/dash_board/presentation/screens/sections/shipment_section.dart';
-import 'package:moding_president_web/feature/dash_board/presentation/screens/sections/summary_section.dart';
-import 'package:moding_president_web/feature/notification/presentation/widgets/notification_bell_button.dart';
+import 'package:moding_seller_web/core/constants/app_responsive_layout.dart';
+import 'package:moding_seller_web/core/presentation/widgets/loading_indicator.dart';
+import 'package:moding_seller_web/feature/dash_board/presentation/providers/dash_board_viewmodel.dart';
+import 'package:moding_seller_web/feature/dash_board/presentation/screens/sections/approval_section.dart';
+import 'package:moding_seller_web/feature/dash_board/presentation/screens/sections/delivery_process_section.dart';
+import 'package:moding_seller_web/feature/dash_board/presentation/screens/sections/now_order_section.dart';
+import 'package:moding_seller_web/feature/dash_board/presentation/screens/sections/shipment_section.dart';
+import 'package:moding_seller_web/feature/dash_board/presentation/screens/sections/summary_section.dart';
+import 'package:moding_seller_web/feature/notification/presentation/widgets/notification_bell_button.dart';
 
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/constants/app_strings.dart';
@@ -57,7 +57,9 @@ class DashboardView extends ConsumerWidget {
                             SizedBox(height: sizedBoxHeight),
                             GestureDetector(
                               onTap: () {
-                                notifier.openUrl("https://www.naver.com");
+                                notifier.openUrl(
+                                  "https://hanjinoneclick.co.kr/member-regist?affliateCode=mp",
+                                );
                               },
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(12),

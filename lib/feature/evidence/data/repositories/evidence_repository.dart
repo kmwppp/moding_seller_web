@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moding_president_web/feature/evidence/data/data_sources/evidence_data_source.dart';
-import 'package:moding_president_web/feature/evidence/domain/entities/tax_invoice_page_result.dart';
-import 'package:moding_president_web/feature/evidence/domain/entities/tax_summary_dto.dart';
+import 'package:moding_seller_web/feature/evidence/data/data_sources/evidence_data_source.dart';
+import 'package:moding_seller_web/feature/evidence/domain/entities/tax_invoice_page_result.dart';
+import 'package:moding_seller_web/feature/evidence/domain/entities/tax_summary_dto.dart';
 
 final evidenceRepositoryProvider = Provider<EvidenceRepository>((ref) {
   return EvidenceRepository(ref.watch(evidenceDataSourceProvider));

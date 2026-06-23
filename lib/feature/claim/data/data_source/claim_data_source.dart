@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:moding_president_web/core/constants/app_http_urls.dart';
-import 'package:moding_president_web/core/network/dio_client.dart';
-import 'package:moding_president_web/feature/claim/presentation/models/approve_type.dart';
+import 'package:moding_seller_web/core/constants/app_http_urls.dart';
+import 'package:moding_seller_web/core/network/dio_client.dart';
+import 'package:moding_seller_web/feature/claim/presentation/models/approve_type.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'claim_data_source.g.dart';
